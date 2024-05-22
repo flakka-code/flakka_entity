@@ -6,7 +6,20 @@ publish_to: none
 environment:
   sdk: "^3.3.0"
 
+dependencies:
+  flakka_functor:
+  fpdart:
+    git:
+      url: https://github.com/SandroMaglione/fpdart
+      ref: effect-refactor
+      path: packages/fpdart
+  meta:
+  riverpod:
+  riverpod_annotation:
+
 dev_dependencies:
+  build_runner:
   mocktail: ^1.0.3
+  riverpod_generator:
   test: ^1.25.2
   very_good_analysis: ^5.1.0

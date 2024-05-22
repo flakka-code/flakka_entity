@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: flakka_functor
+dependency_overrides:
+  flakka_functor:
+    path: ../flakka_functor
